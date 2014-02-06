@@ -9,10 +9,6 @@
   Foreground="{StaticResource PhoneForegroundBrush}"
   d:DesignWidth="100" d:DesignHeight="20">
 
-  <UserControl.Resources>
-    <ResourceDictionary Source="/AppboyUI.Phone;component/Assets/Styles/Appboy.xaml"/>
-  </UserControl.Resources>
-
   <StackPanel x:Name="StarStackPanel" Orientation="Horizontal">
     <Image Source="\Assets\Images\Star\Blue\com_appboy_star_empty.png" Style="{StaticResource Appboy.StarRating.Image}"/>
     <Image Source="\Assets\Images\Star\Blue\com_appboy_star_empty.png" Style="{StaticResource Appboy.StarRating.Image}"/>

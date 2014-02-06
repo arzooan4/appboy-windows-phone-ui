@@ -12,10 +12,6 @@
   FontSize="{StaticResource PhoneFontSizeNormal}"
   Foreground="{StaticResource PhoneForegroundBrush}"
   d:DesignHeight="480" d:DesignWidth="480">
-
-  <UserControl.Resources>
-    <ResourceDictionary Source="/AppboyUI.Phone;component/Assets/Styles/Appboy.xaml"/>
-  </UserControl.Resources>
   
   <Grid>
     <ListBox x:Name="FeedListBox" ItemsSource="{Binding}" HorizontalContentAlignment="Stretch" VirtualizingStackPanel.VirtualizationMode="Recycling">

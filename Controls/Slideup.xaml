@@ -9,10 +9,6 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     d:DesignHeight="480" d:DesignWidth="480">
 
-  <UserControl.Resources>
-    <ResourceDictionary Source="/AppboyUI.Phone;component/Assets/Styles/Appboy.xaml"/>
-  </UserControl.Resources>
-
   <Border Style="{StaticResource Appboy.Slideup.Border}">
     <Grid Style="{StaticResource Appboy.Slideup.Grid}">
       <TextBlock x:Name="SlideupTextBlock" Style="{StaticResource Appboy.Slideup.TextBlock}"/>
